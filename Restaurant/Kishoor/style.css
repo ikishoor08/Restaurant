@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F4F4F4;
+    color: #111;
+    line-height: 1.6;
+}
+
+header.main-header {
+    background-color: #2E8B57;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    background-color: #2E8B57;
+}
+
+.banner {
+    background-image: url('images/banner.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+.food-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.admin-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
